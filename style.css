@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: none;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 140px;
+    box-shadow: 1px 1px 40px rgb(214, 211, 211);
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+nav .left{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    /* border: 2px solid red; */
+}
+
+nav .right{
+    display: flex;
+    align-items: center;
+}
+
+.left>img{
+    width: 65px;
+}
+
+.left > div{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.right>a{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* border: 2px solid black; */
+    text-decoration: none;
+   
+}
+
+.right{
+    gap: 60px;
+    padding-right: 230px;
+}
+
+.right>a>span{
+    font-size: 20px;
+    /* border: 2px solid red; */
+    text-decoration: none;
+}
+
+
+
+main{
+    margin: 0 200px;
+}
+nav2{
+    padding-top: 50px;
+    /* border: 2px solid red; */
+     display: flex;
+    justify-content: space-between; 
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E9E9EB;
+}
+
+nav2>h2{
+    font-weight:500;
+}
+
+nav2>.categ{
+    display: flex;
+    gap: 30px;;
+}
+
+.categ>a{
+    text-decoration: none;
+}
+
+.fooditems>.item{
+    width:16vw;
+}
+
+.left>.logo:hover{
+    transform: scaleX(1.1) scaleY(1.1);
+
+}
+
+
+.categ>a:hover{
+    border-bottom: 0.5px solid gray;
+}
+
+.item>img{
+    
+    width:16vw;
+    padding-bottom: 10px;
+}
+
+.fooditems{
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.item>p, .item>.rating{
+    padding-bottom: 8px;
+}
+
+.item>.rating{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #E9E9EB;
+}
+
+/* .item{
+    border: 2px solid red;
+} */
+
+.offer{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.fooditems{
+    display: flex;
+    flex-wrap: wrap;
+    gap:40px;
+}
+
+.item:hover{
+    border: 1px solid wheat;
+
+}
+
+
+.item{
+    padding: 2px;
+    box-shadow: 1px 1px 2px gainsboro;
+    
+}
+
+.view{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.item:hover .view {
+    color: blue;
+}
+
+.fooditems{
+    padding-bottom: 50px;
+}
+
+.left>.ele{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer>.left{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    width: 800px;
+}
+
+.but>.logo>img{
+    width: 30px;
+}
+
+.but{
+    display: inline-flex;
+    gap:10px;
+    /* border: 2px solid red; */
+
+}
+
+.but>.logo{
+    display: flex;
+    align-items:center ;
+}
+
+.footer{
+    display: flex;
+    gap:100px;
+    background-color: gray;
+    padding-top: 20px;
+}
+
+.but{
+    position: relative;
+    left:130px;
+    top: 70px;
+
+}
+
+.footer>.right{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+
+main{
+    margin-bottom: 50px;
+}
+
+.footer>.left, .footer>.rating{
+    padding-left: 190px;
+    
+}
+
+.footer>.left>.ele>a{
+    text-decoration: none;
+}
+
+.expand, .item{
+    cursor: pointer;
+}
+
+.but{
+    cursor: pointer;
+}
